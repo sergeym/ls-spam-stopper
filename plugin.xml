@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">Spam stopper</lang>
+    </name>
+    <author>
+        <lang name="default">Sergey Marin</lang>
+    </author>
+    <homepage>http://sergeymarin.com</homepage>
+    <version>1</version>
+    <requires>
+        <livestreet>1.*</livestreet>
+        <plugins>
+
+        </plugins>
+    </requires>
+    <description>
+        <lang name="default">Prevent site from non-browser registrations</lang>
+        <lang name="russian">Защищает сайт от не браузерных регистраций</lang>
+    </description>
+    <delegate>
+        <module></module>
+        <action></action>
+        <template></template>
+        <entity></entity>
+    </delegate>
+</plugin>
